@@ -1,6 +1,8 @@
 import { AppBanner, AppContainer } from "./Appstyle";
-import { ArticlesContent } from "./components/Articles/style";
+import { Articles } from "./components/Articles";
 import { Banner } from "./components/Banner";
+import { ContentForm } from "./components/ContentForm";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 
 function App() {
@@ -10,7 +12,9 @@ function App() {
         <Header />
         <Banner />
       </AppBanner>
-      <ArticlesContent />
+      <Articles />
+      <ContentForm />
+      <Footer />
     </AppContainer>
   );
 }
